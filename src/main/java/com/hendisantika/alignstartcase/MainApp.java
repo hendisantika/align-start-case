@@ -12,11 +12,18 @@ import java.util.Scanner;
  * Date: 17/04/20 Time: 13.05
  */
 public class MainApp {
+  static final int LIMIT = 100;
   public static void main(String[] args) {
     Scanner myObj = new Scanner(System.in);
+    System.out.println("Input number of line (max: 100): ");
     int rows = myObj.nextInt();
 
-    rightTriangle(rows);
+    if (rows <= LIMIT) {
+      rightTriangle(rows);
+    } else {
+      System.out.println("Your number is beyond max number (100)");
+    }
+
   }
 
   public static void rightTriangle(int rows) {
