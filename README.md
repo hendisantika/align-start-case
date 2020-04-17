@@ -5,3 +5,9 @@
 2. Go inside clone folder: `cd align-start-case`.
 3. Build your application using gradle: `gradle clean build`
 3. Run your application using gradle: `java -jar build/libs/rightAlignStarCase-1.0-SNAPSHOT.jar`
+
+### Screen shot
+
+Run application
+
+![Run application](img/run.png "Run application")
